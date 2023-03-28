@@ -7,11 +7,16 @@
 
 #Write your code below this line 👇
 
+# setup the variables along with the types
 total_bill = float(input('Please enter the total bill amount: '))
 number_of_people = int(input('Please enter the number of people the total bill need to be split: '))
 tip_percent = float(input('Please enter the tip amount %:  '))
 
+# setup the business logic along with type conversion
+
 per_person_amount = float( total_bill / (number_of_people ) * (1 + tip_percent * 0.01) )
+
+# print the output
 formatted_per_person_amount = format(per_person_amount, '.2f')
 
 print(f'The amount each person owes is : {formatted_per_person_amount}')
