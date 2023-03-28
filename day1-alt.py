@@ -7,12 +7,10 @@
 print(f'Welcome to the Band Name Generator program!')
 
 # Ask for the place of birth
-print(f'What\'s the name of the city you grew up in ?')
-place_of_birth = input()
+place_of_birth = input("What's the name of the city you grew up in ?\n")
 
 # 2) Ask for the pet name
-print(f'What\'s your pet name ?')
-pet_name = input()
+pet_name = input("What\'s your pet name ?\n")
 
 # Generate a band name
 print(f'Your band name could be {place_of_birth} {pet_name} ')
